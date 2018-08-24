@@ -1,0 +1,25 @@
+body
+{
+    background: black;
+    color: darkslateblue
+}
+
+#box1
+{
+    background: lightgrey;
+    height: 100px;
+}
+#box2
+{
+    background: lightgrey;
+    height: 100px;
+}
+
+#map_box 
+{
+    width: 33%;
+    height: 100px;
+    background: white;
+
+    transition: width 0.2s, height 0.2s;
+}
