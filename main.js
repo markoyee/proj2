@@ -15,6 +15,7 @@ $(document).ready(function()
                 $(this).css("width","100%");
                 $(this).css("height","500px");
                 clip=1;
+                $('.col-sm-4').addClass('col-sm-6').removeClass('col-sm-4');
             }
             else
             {
@@ -23,6 +24,7 @@ $(document).ready(function()
                 $(this).css("width","33%");
                 $(this).css("height","100px");
                 clip=0;
+                $('.col-sm-6').addClass('col-sm-4').removeClass('col-sm-6');
             }
         }
     );
