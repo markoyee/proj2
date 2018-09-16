@@ -6,13 +6,16 @@ body
 
 #box1
 {
+    text-align: center;
     background: lightgrey;
     height: 100px;
 }
+
 #box2
 {
     background: lightgrey;
     height: 100px;
+    text-align: center;
 }
 
 #map_box 
